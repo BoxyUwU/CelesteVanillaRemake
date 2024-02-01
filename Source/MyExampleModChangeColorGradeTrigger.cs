@@ -17,8 +17,7 @@ public class ChangeColorGrade : Trigger
 
     public override void OnEnter(Player player)
     {
-        var dyn_data = DynamicData.For(player);
-        var level = dyn_data.Get<Level>("level");
+        var level = player.Scene as Level;
         if (fade == 0f)
         {
             level.SnapColorGrade(color_grade);
