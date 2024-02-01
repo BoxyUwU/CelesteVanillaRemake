@@ -1,0 +1,9 @@
+- Name: MyExampleMod
+  Version: 1.0.0
+  Dependencies:
+    - Name: Everest
+      Version: 1.4465.0
+    - Name: FrostHelper
+      Version: 1.47.1
+    - Name: MaxHelpingHand
+      Version: 1.29.0

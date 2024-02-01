@@ -1,0 +1,73 @@
+Icon: areas/resort
+# CassetteCheckpointIndex: 2 # specific to the map, automatically determined by Everest
+Jumpthru: wood # not necessary for custom maps
+CassetteNoteColor: eed933
+Mountain:
+    Idle:
+        Position: [ 5.961, 8.823, 5.058 ]
+        Target: [ 5.061, 7.757, 3.626 ]
+    Select:
+        Position: [ 4.294, 6.633, 5.193 ]
+        Target: [ 5.027, 6.828, 3.343 ]
+    Zoom:
+        Position: [ 5.200, 6.650, 2.595 ]
+        Target: [ 5.007, 6.391, 0.621 ]
+    Cursor: [ 4.993515, 6.881229, 1.536384 ]
+    State: 1
+CompleteScreen:
+    Atlas: "CelestialResort"
+    Start: [ 0.0, 1050.0 ]
+    Center: [ 0.0, 250.0 ]
+    Title:
+        ASide: 'AREACOMPLETE_NORMAL'
+        BSide: 'AREACOMPLETE_BSIDE'
+        CSide: 'AREACOMPLETE_CSIDE'
+        FullClear: 'AREACOMPLETE_NORMAL_FULLCLEAR'
+    Layers:
+      - Type: "layer"
+        Images: [ "00" ]
+        Position: [ -108.0, 0.0 ]
+        Scroll: [ 0.0 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "00b" ]
+        Position: [ -108.0, 0.0 ]
+        Scroll: [ 0.02 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "01" ]
+        Position: [ -108.0, 0.0 ]
+        Scroll: [ 0.04 ]
+      - Type: "layer"
+        Images: [ "02" ]
+        Position: [ -108.0, 0.0 ]
+        Scroll: [ 0.06 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "03" ]
+        Position: [ -108.0, 0.0 ]
+        Scroll: [ 0.04 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "04a" ]
+        Position: [ -68.0, -64.0 ]
+        Scroll: [ 0.08 ]
+      - Type: "layer"
+        Images: [ "04b" ]
+        Position: [ -68.0, -64.0 ]
+        Scroll: [ 0.08 ]
+      - Type: "layer"
+        Images: [ "05a" ]
+        Position: [ -78.0, 0.0 ]
+        Scroll: [ 0.09 ]
+      - Type: "layer"
+        Images: [ "05b" ]
+        Position: [ -78.0, 0.0 ]
+        Scroll: [ 0.09 ]
+      - Type: "layer"
+        Images: [ "06" ]
+        Position: [ -108.0, 0.0 ]
+        Scroll: [ 0.10 ]
+        Scale: 2
+      - Type: "ui"
+        ScrollX: [ 0.2 ]

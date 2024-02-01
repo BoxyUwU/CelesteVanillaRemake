@@ -1,0 +1,16 @@
+Icon: areas/intro
+Jumpthru: wood # not necessary for custom maps
+Mountain:
+    Idle:
+        Position: [ -1.374, 1.224, 7.971 ]
+        Target: [ -0.440, 0.499, 6.358 ]
+    Select:
+        Position: [ -1.390, 0.784, 7.593 ]
+        Target: [ -0.052, 0.545, 6.125 ]
+    Zoom:
+        Position: [ -1.104, 0.661, 7.292 ]
+        Target: [ -0.324, 0.565, 5.452 ]
+    Cursor: [ -0.880595, 0.8781773, 6.77277 ]
+    State: 0
+LoadingVignetteText:
+    Dialog: "CH0_INTRO"

@@ -1,0 +1,181 @@
+Icon: areas/summit
+# CassetteCheckpointIndex: 3 # specific to the map, automatically determined by Everest
+Jumpthru: temple # not necessary for custom maps
+CassetteNoteColor: e69156
+Mountain:
+    Idle:
+        Position: [ -14.620, 3.606, 19.135 ]
+        Target: [ -13.134, 4.115, 17.897 ]
+    Select:
+        Position: [ -13.453, 5.141, 18.179 ]
+        Target: [ -11.907, 5.751, 17.067 ]
+    Zoom:
+        Position: [ -9.156, 6.872, 12.432 ]
+        Target: [ -8.014, 7.516, 10.922 ]
+    Cursor: [ -0.2239623, 14.5, -0.6094461 ]
+    State: 1
+    ShowCore: false
+LoadingVignetteScreen: # note: unlike vanilla, the vignette will play for the B and C side as well as the A side
+    Atlas: "SummitIntro"
+    Start: [ 0.0, 1500.0 ]
+    Center: [ 0.0, -4000.0 ]
+    Layers:
+      - Type: "layer"
+        Images: [ "00" ]
+        Position: [ -108.0, -80.0 ]
+        Scroll: [ 0.0 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "01a" ]
+        Position: [ -108.0, -80.0 ]
+        Scroll: [ 0.02 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "01b" ]
+        Position: [ -108.0, -80.0 ]
+        Scroll: [ 0.02 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "02a" ]
+        Position: [ -108.0, -80.0 ]
+        Scroll: [ 0.04 ]
+      - Type: "layer"
+        Images: [ "02b" ]
+        Position: [ -108.0, -80.0 ]
+        Scroll: [ 0.04 ]
+      - Type: "layer"
+        Images: [ "03" ]
+        Position: [ -168.0, -180.0 ]
+        Scroll: [ 0.06 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "07a" ]
+        Position: [ -108.0, -80.0 ]
+        Scroll: [ 0.08 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "07b" ]
+        Position: [ -108.0, -80.0 ]
+        Scroll: [ 0.08 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "04" ]
+        Position: [ -108.0, -80.0 ]
+        Scroll: [ 0.09 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "05" ]
+        Position: [ -108.0, -80.0 ]
+        Scroll: [ 0.10 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "06" ]
+        Position: [ -108.0, -80.0 ]
+        Scroll: [ 0.14 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "08" ]
+        Position: [ -108.0, -80.0 ]
+        Scroll: [ 0.08 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "09a" ]
+        Position: [ -108.0, -80.0 ]
+        Scroll: [ 0.10 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "09b" ]
+        Position: [ -108.0, -80.0 ]
+        Scroll: [ 0.10 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "10" ]
+        Position: [ -108.0, -80.0 ]
+        Scroll: [ 0.12 ]
+      - Type: "layer"
+        Images: [ "11" ]
+        Position: [ -108.0, -80.0 ]
+        Scroll: [ 0.12 ]
+      - Type: "layer"
+        Images: [ "12a" ]
+        Position: [ -108.0, -80.0 ]
+        Scroll: [ 0.13 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "12b" ]
+        Position: [ -108.0, -80.0 ]
+        Scroll: [ 0.13 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "13" ]
+        Position: [ -108.0, -80.0 ]
+        Scroll: [ 0.14 ]
+        Scale: 2
+CompleteScreen:
+    MusicBySide:
+      - event:/music/menu/complete_summit
+      - event:/music/menu/complete_bside
+      - event:/music/menu/complete_bside
+    Atlas: "SummitEnd"
+    Start: [ 0.0, 0.0 ]
+    Center: [ 0.0, -800.0 ]
+    Layers:
+      - Type: "layer"
+        Images: [ "00" ]
+        Position: [ -108.0, 0.0 ]
+        Scroll: [ 0.0 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "01a", "01b", "01c", "", "01c", "01b", "01a", "01a", "01a", "01a", "01a", "01a", "01a", "01a", "01a" ]
+        Position: [ -108.0, 0.0 ]
+        Scroll: [ 0.01 ]
+      - Type: "layer"
+        Images: [ "02a", "02a", "02a", "02a", "02a", "02a", "02a", "02b", "02c", "", "", "", "", "02c", "02b", "02a", "02a" ]
+        Position: [ -108.0, 0.0 ]
+        Scroll: [ 0.01 ]
+      - Type: "layer"
+        Images: [ "", "", "", "", "", "03c", "03b", "03a", "03a", "03a", "03b", "03c" ]
+        Position: [ -108.0, 0.0 ]
+        Scroll: [ 0.01 ]
+      - Type: "layer"
+        Images: [ "04" ]
+        Position: [ -148.0, -160.0 ]
+        Scroll: [ 0.02 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "05" ]
+        Position: [ -108.0, -80.0 ]
+        Scroll: [ 0.04 ]
+      - Type: "layer"
+        Images: [ "06" ]
+        Position: [ -108.0, -160.0 ]
+        Scroll: [ 0.08 ]
+        Alpha: 0.8
+        Scale: 2
+      - Type: "layer"
+        Images: [ "07a", "07b", "07c", "07b", "07d", "07c" ]
+        Position: [ -108.0, -78.0 ]
+        Scroll: [ 0.12 ]
+      - Type: "layer"
+        Images: [ "08" ]
+        Position: [ -108.0, -80.0 ]
+        Scroll: [ 0.12 ]
+      - Type: "layer"
+        Images: [ "09a", "09b", "09c", "09d", "09e", "09f", "09g", "09h" ]
+        Position: [ -108.0, -80.0 ]
+        Scroll: [ 0.12 ]
+      - Type: "layer"
+        Images: [ "10" ]
+        Position: [ -78.0, -90.0 ]
+        Scroll: [ 0.14 ]
+      - Type: "layer"
+        Images: [ "11b", "11b", "11b", "11b", "11b", "11b", "11b", "11b", "11b", "11b", "11b", "11b", "11c", "11b", "11c", "11b", "11a" ]
+        Position: [ -68.0, -70.0 ]
+        Scroll: [ 0.14 ]
+      - Type: "layer"
+        Images: [ "12" ]
+        Position: [ -108.0, -200.0 ]
+        Scroll: [ 0.18 ]
+        Speed: [ -50.0, 0.0 ]
+        Alpha: 0.7
+        Scale: 2

@@ -1,0 +1,72 @@
+Icon: areas/cliffside
+# CassetteCheckpointIndex: 0 # specific to the map, automatically determined by Everest
+Jumpthru: cliffside # not necessary for custom maps
+CassetteNoteColor: eb4bd9
+Mountain:
+    Idle:
+        Position: [ 9.626, 8.824, -4.140 ]
+        Target: [ 7.924, 8.240, -3.267 ]
+    Select:
+        Position: [ 8.429, 5.837, -5.086 ]
+        Target: [ 6.662, 6.019, -4.167 ]
+    Zoom:
+        Position: [ 7.036, 5.347, -3.231 ]
+        Target: [ 5.522, 5.584, -1.946 ]
+    Cursor: [ 4.481695, 6.766555, -2.226157 ]
+    State: 2
+CompleteScreen:
+    Atlas: "Cliffside"
+    Start: [ 200.0, 1050.0 ]
+    Center: [ 200.0, 250.0 ]
+    Title:
+        ASide: 'AREACOMPLETE_NORMAL'
+        BSide: 'AREACOMPLETE_BSIDE'
+        CSide: 'AREACOMPLETE_CSIDE'
+        FullClear: 'AREACOMPLETE_NORMAL_FULLCLEAR'
+    Layers:
+      - Type: "layer"
+        Images: [ "00" ]
+        Position: [ 0.0, 0.0 ]
+        Scroll: [ 0.0 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "01" ]
+        Position: [ 0.0, -50.0 ]
+        Scroll: [ 0.02 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "02" ]
+        Position: [ 0.0, -40.0 ]
+        Scroll: [ 0.04 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "03" ]
+        Position: [ 0.0, 0.0 ]
+        Scroll: [ 0.04 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "04" ]
+        Position: [ 0.0, -30.0 ]
+        Scroll: [ 0.06 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "05" ]
+        Position: [ 0.0, 0.0 ]
+        Scroll: [ 0.08 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "06" ]
+        Position: [ 0.0, 0.0 ]
+        Scroll: [ 0.10 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "07" ]
+        Position: [ 0.0, 0.0 ]
+        Scroll: [ 0.12 ]
+      - Type: "layer"
+        Images: [ "08" ]
+        Position: [ 0.0, 0.0 ]
+        Scroll: [ 0.14 ]
+        Scale: 2
+      - Type: "ui"
+        ScrollX: [ 0.2 ]

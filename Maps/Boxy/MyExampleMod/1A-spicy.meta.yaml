@@ -1,0 +1,97 @@
+Icon: areas/city
+# CassetteCheckpointIndex: 2 # specific to the map, automatically determined by Everest
+Jumpthru: wood # not necessary for custom maps
+CassetteNoteColor: 33a9ee
+Mountain:
+    Idle:
+        Position: [ -0.952, 4.218, 9.744 ]
+        Target: [ -0.111, 3.393, 8.127 ]
+    Select:
+        Position: [ -0.052, 1.659, 9.902 ]
+        Target: [ 1.110, 1.526, 8.280 ]
+    Zoom:
+        Position: [ 1.437, 1.896, 7.061 ]
+        Target: [ 1.376, 0.881, 5.338 ]
+    Cursor: [ 1.319535, 2.07172, 5.113717 ]
+    State: 0
+CompleteScreen:
+    Atlas: "ForsakenCity"
+    Scale: 2
+    Start: [ -10.0, 2000.0 ]
+    Center: [ -10.0, 1200.0 ]
+    Title:
+        ASide: 'AREACOMPLETE_NORMAL'
+        BSide: 'AREACOMPLETE_BSIDE'
+        CSide: 'AREACOMPLETE_CSIDE'
+        FullClear: 'AREACOMPLETE_NORMAL_FULLCLEAR'
+    Layers:
+      - Type: "layer"
+        Images: [ "01" ]
+        Position: [ 0.0, 0.0 ]
+        Scroll: [ 0.0 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "02" ]
+        Position: [ -800.0, -700.0 ]
+        Scroll: [ 0.02 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "03" ]
+        Position: [ -800.0, -700.0 ]
+        Scroll: [ 0.03 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "04" ]
+        Position: [ -800.0, -700.0 ]
+        Scroll: [ 0.04 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "05" ]
+        Position: [ -800.0, -700.0 ]
+        Scroll: [ 0.05 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "snow-back" ]
+        Position: [ -920.0, -720.0 ]
+        Scroll: [ 0.06 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "06" ]
+        Position: [ -800.0, -700.0 ]
+        Scroll: [ 0.07 ]
+        Scale: 2
+      - Type: "ui"
+        Scroll: [ 0.62 ]
+      - Type: "layer"
+        Images: [ "07" ]
+        Position: [ -800.0, -700.0 ]
+        Scroll: [ 0.08 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "08a" ]
+        Position: [ -800.0, -700.0 ]
+        Scroll: [ 0.10 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "08b" ]
+        Position: [ -800.0, -700.0 ]
+        Scroll: [ 0.10 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "09" ]
+        Position: [ -920.0, -720.0 ]
+        Scroll: [ 0.10 ]
+      - Type: "layer"
+        Images: [ "10" ]
+        Position: [ -920.0, -720.0 ]
+        Scroll: [ 0.10 ]
+      - Type: "layer"
+        Images: [ "snow-front" ]
+        Position: [ -920.0, -720.0 ]
+        Scroll: [ 0.12 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "11" ]
+        Position: [ -800.0, -520.0 ]
+        Scroll: [ 0.14 ]
+        Scale: 2

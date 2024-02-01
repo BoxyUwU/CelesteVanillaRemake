@@ -1,0 +1,76 @@
+Icon: areas/reflection
+# CassetteCheckpointIndex: 2 # specific to the map, automatically determined by Everest
+Jumpthru: reflection # not necessary for custom maps
+CassetteNoteColor: 56e6dd
+Mountain:
+    Idle:
+        Position: [ 1.113, 12.154, 6.334 ]
+        Target: [ -0.086, 11.118, 5.115 ]
+    Select:
+        Position: [ 1.113, 12.154, 6.334 ]
+        Target: [ 0.945, 11.175, 4.599 ]
+    Zoom:
+        Position: [ -0.165, 9.961, 2.608 ]
+        Target: [ -0.726, 8.975, 0.961 ]
+    Cursor: [ -1.464781, 9.340404, 0.830584 ]
+    State: 0
+CompleteScreen:
+    Atlas: "TheFall"
+    Start: [ 0.0, 1050.0 ]
+    Center: [ 0.0, 250.0 ]
+    Title:
+        ASide: 'AREACOMPLETE_NORMAL'
+        BSide: 'AREACOMPLETE_BSIDE'
+        CSide: 'AREACOMPLETE_CSIDE'
+        FullClear: 'AREACOMPLETE_NORMAL_FULLCLEAR'
+    Layers:
+      - Type: "layer"
+        Images: [ "00" ]
+        Position: [ -100.0, 0.0 ]
+        Scroll: [ 0.0 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "01" ]
+        Position: [ -110.0, 0.0 ]
+        Scroll: [ 0.02 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "02" ]
+        Position: [ -110.0, 0.0 ]
+        Scroll: [ 0.04 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "03a" ]
+        Position: [ -100.0, 0.0 ]
+        Scroll: [ 0.05 ]
+      - Type: "layer"
+        Images: [ "03b" ]
+        Position: [ -100.0, 0.0 ]
+        Scroll: [ 0.05 ]
+      - Type: "layer"
+        Images: [ "04" ]
+        Position: [ -100.0, 0.0 ]
+        Scroll: [ 0.08 ]
+        Scale: 2
+      - Type: "layer"
+        Images: [ "05a0", "05a0", "05a0", "05a0", "05a0", "05a0", "05a0", "05a0", "05a0", "05a0", "05a0", "05a0", "05a0", "05a0", "05a0", "05a0", "05a0", "05a1", "05a2", "05a3", "05a3", "05a3", "05a3", "05a3", "05a3", "05a3", "05a3", "05a3", "05a2", "05a1" ]
+        Position: [ -100.0, 0.0 ]
+        Scroll: [ 0.12 ]
+      - Type: "layer"
+        Images: [ "06" ]
+        Position: [ -100.0, 0.0 ]
+        Scroll: [ 0.14 ]
+      - Type: "layer"
+        Images: [ "05b0", "05b0", "05b0", "05b0", "05b0", "05b0", "05b0", "05b0", "05b0", "05b0", "05b0", "05b0", "05b0", "05b0", "05b0", "05b0", "05b0", "05b1", "05b2", "05b3", "05b4", "05b4", "05b4", "05b4", "05b4", "05b4", "05b4", "05b3", "05b2", "05b1" ]
+        Position: [ -100.0, 0.0 ]
+        Scroll: [ 0.14 ]
+      - Type: "layer"
+        Images: [ "05c0", "05c0", "05c0", "05c0", "05c0", "05c0", "05c0", "05c0", "05c0", "05c0", "05c0", "05c0", "05c0", "05c0", "05c0", "05c0", "05c0", "05c0", "05c1", "05c2", "05c2", "05c2", "05c2", "05c2", "05c2", "05c2", "05c2", "05c2", "05c2", "05c1" ]
+        Position: [ -100.0, 0.0 ]
+        Scroll: [ 0.12 ]
+      - Type: "layer"
+        Images: [ "05d0", "05d0", "05d0", "05d0", "05d0", "05d0", "05d0", "05d0", "05d0", "05d0", "05d0", "05d0", "05d0", "05d0", "05d0", "05d0", "05d0", "05d1", "05d2", "05d3", "05d4", "05d4", "05d4", "05d4", "05d4", "05d4", "05d4", "05d3", "05d2", "05d1" ]
+        Position: [ -100.0, 0.0 ]
+        Scroll: [ 0.14 ]
+      - Type: "ui"
+        ScrollX: [ 0.2 ]
