@@ -1,22 +1,20 @@
 using System;
-using System.Collections;
-using System.ComponentModel;
 using Celeste;
 using Celeste.Mod.Entities;
 using Microsoft.Xna.Framework;
 using Monocle;
 
-[CustomEntity("badelineButBetter")]
-public class BadelineButBetter : BadelineOldsite
+[CustomEntity("Celestish/IntroBadeline")]
+public class IntroBadeline : BadelineOldsite
 {
-    public static BadelineButBetter Load(Level level, LevelData level_data, Vector2 offset, EntityData data)
-        => new BadelineButBetter(data, offset, 1);
+    public static IntroBadeline Load(Level level, LevelData level_data, Vector2 offset, EntityData data)
+        => new IntroBadeline(data, offset, 1);
 
-    public BadelineButBetter(Vector2 position, int index) : base(position, index)
+    public IntroBadeline(Vector2 position, int index) : base(position, index)
     {
     }
 
-    public BadelineButBetter(EntityData data, Vector2 offset, int index) : base(data, offset, index)
+    public IntroBadeline(EntityData data, Vector2 offset, int index) : base(data, offset, index)
     {
     }
 

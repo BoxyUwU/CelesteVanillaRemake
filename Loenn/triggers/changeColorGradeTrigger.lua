@@ -1,6 +1,6 @@
 local change_color_grade = {}
 
-change_color_grade.name = "changeColorGrade"
+change_color_grade.name = "Celestish/ChangeColorGrade"
 change_color_grade.placements = {
     {
         name = "Snap Color Grade",
