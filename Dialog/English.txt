@@ -13,7 +13,7 @@ Boxy_MyExampleMod_1A_spicy_08= Scrap Pit
 
 Boxy_MyExampleMod_2A_spicy= Old Site (Spicy)
 Boxy_MyExampleMod_2A_spicy_3= Intervention
-Boxy_MyExampleMod_2A_spicy_end_0= Awake
+Boxy_MyExampleMod_2A_spicy_c_03= Awake
 
 Boxy_MyExampleMod_2A_spicy_remix= (Black Moonrise Mix)
 Boxy_MyExampleMod_2A_spicy_remix_artist= Ben Prunty
