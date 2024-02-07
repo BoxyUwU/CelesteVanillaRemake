@@ -5,7 +5,10 @@ baddy_but_better.depth = 0
 baddy_but_better.justification = { 0.5, 1.0 }
 baddy_but_better.texture = "characters/badeline/sleep23"
 baddy_but_better.placements = {
-    name = "Badeline But Better"
+    name = "Badeline But Better",
+    data = {
+        canChangeMusic = true,
+    }
 }
 
 return baddy_but_better

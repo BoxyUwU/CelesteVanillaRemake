@@ -10,7 +10,7 @@ using Monocle;
 public class BadelineButBetter : BadelineOldsite
 {
     public static BadelineButBetter Load(Level level, LevelData level_data, Vector2 offset, EntityData data)
-        => new BadelineButBetter(data.Position + offset, 1);
+        => new BadelineButBetter(data, offset, 1);
 
     public BadelineButBetter(Vector2 position, int index) : base(position, index)
     {
