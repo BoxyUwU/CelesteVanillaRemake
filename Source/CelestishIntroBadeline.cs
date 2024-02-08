@@ -3,6 +3,7 @@ using Celeste;
 using Celeste.Mod.Entities;
 using Microsoft.Xna.Framework;
 using Monocle;
+using MonoMod;
 
 [CustomEntity("Celestish/IntroBadeline")]
 public class IntroBadeline : BadelineOldsite
@@ -21,9 +22,7 @@ public class IntroBadeline : BadelineOldsite
     public override void Added(Scene scene)
     {
         // Entity.Added
-        var ptr = typeof(Entity).GetMethod("Added").MethodHandle.GetFunctionPointer();
-        var baseAdded = (Action<Scene>)Activator.CreateInstance(typeof(Action<Scene>), this, ptr);
-        baseAdded(scene);
+        base_Added(scene);
 
         Level level = scene as Level;
 
@@ -46,5 +45,11 @@ public class IntroBadeline : BadelineOldsite
         {
             Add(new Coroutine(StartChasingRoutine(level)));
         }
+    }
+
+    [MonoModLinkTo("Celeste.Entity", "System.Void Added(Monocle.Scene)")]
+    public void base_Added(Scene scene)
+    {
+        base.Added(scene);
     }
 }
