@@ -352,3 +352,6 @@ MigrationBackup/
 # JetBrains Rider
 .idea
 
+# Celeste dir symlink
+CelesteLink
+
