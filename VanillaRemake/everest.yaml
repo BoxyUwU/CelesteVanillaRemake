@@ -1,0 +1,7 @@
+- Name: VanillaRemake
+  Version: 0.1.0
+  Dependencies:
+    - Name: EverestCore
+      Version: 1.4465.0
+    - Name: Celestish
+      Version: 0.1.0

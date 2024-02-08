@@ -1,0 +1,139 @@
+﻿Boxy_VanillaRemake= Vanilla Remake
+
+Boxy_VanillaRemake_0_spicy= Prologue
+
+Boxy_VanillaRemake_1A_spicy= Forsaken City
+Boxy_VanillaRemake_1A_spicy_b_00= Crossing
+Boxy_VanillaRemake_1A_spicy_c_00= Chasm
+
+Boxy_VanillaRemake_1A_spicy_remix= (Sever the Skyline Mix)
+Boxy_VanillaRemake_1A_spicy_remix_artist= Maxo
+Boxy_VanillaRemake_1A_spicy_04= Contraption
+Boxy_VanillaRemake_1A_spicy_08= Scrap Pit
+
+Boxy_VanillaRemake_2A_spicy= Old Site
+Boxy_VanillaRemake_2A_spicy_3= Intervention
+Boxy_VanillaRemake_2A_spicy_c_03= Awake
+
+Boxy_VanillaRemake_2A_spicy_remix= (Black Moonrise Mix)
+Boxy_VanillaRemake_2A_spicy_remix_artist= Ben Prunty
+Boxy_VanillaRemake_2A_spicy_03= Combination Lock
+Boxy_VanillaRemake_2A_spicy_08b= Dream Altar
+
+Boxy_VanillaRemake_3A_spicy= Celestial Resort
+Boxy_VanillaRemake_3A_spicy_b_00= Huge Mess
+Boxy_VanillaRemake_3A_spicy_c_00= Elevator Shaft
+Boxy_VanillaRemake_3A_spicy_d_00= Presidential Suite
+
+Boxy_VanillaRemake_3A_spicy_remix= (Good Karma Mix)
+Boxy_VanillaRemake_3A_spicy_remix_artist= Christa Lee
+Boxy_VanillaRemake_3A_spicy_06= Staff Quarters
+Boxy_VanillaRemake_3A_spicy_11= Library
+Boxy_VanillaRemake_3A_spicy_16= Rooftop
+
+Boxy_VanillaRemake_4A_spicy= Golden Ridge
+Boxy_VanillaRemake_4A_spicy_b_00=Shrine
+Boxy_VanillaRemake_4A_spicy_c_00=Old Trail
+Boxy_VanillaRemake_4A_spicy_d_00=Cliff Face
+
+Boxy_VanillaRemake_4A_spicy_remix= (Golden Feather Mix)
+Boxy_VanillaRemake_4A_spicy_remix_artist= in love with a ghost
+Boxy_VanillaRemake_4A_spicy_b_00_2= Stepping Stones
+Boxy_VanillaRemake_4A_spicy_c_00_2= Gusty Canyon
+Boxy_VanillaRemake_4A_spicy_d_00_2= Eye of the Storm
+
+Boxy_VanillaRemake_5A_spicy= Mirror Temple
+Boxy_VanillaRemake_5A_spicy_b_00= Depths
+Boxy_VanillaRemake_5A_spicy_c_00= Unravelling
+Boxy_VanillaRemake_5A_spicy_d_00= Search
+Boxy_VanillaRemake_5A_spicy_e_00= Rescue
+
+Boxy_VanillaRemake_5A_spicy_remix= (Mirror Magic Mix)
+Boxy_VanillaRemake_5A_spicy_remix_artist= 2 Mello
+Boxy_VanillaRemake_5A_spicy_b_00_2= Central Chamber
+Boxy_VanillaRemake_5A_spicy_c_00_2= Through the Mirror
+Boxy_VanillaRemake_5A_spicy_d_00_2= Mix Master
+
+Boxy_VanillaRemake_6A_spicy= Reflection
+Boxy_VanillaRemake_6A_spicy_00= Lake
+Boxy_VanillaRemake_6A_spicy_04= Hollows
+Boxy_VanillaRemake_6A_spicy_b_00= Reflection
+Boxy_VanillaRemake_6A_spicy_boss_00= Rock Bottom
+Boxy_VanillaRemake_6A_spicy_after_00= Resolution
+
+Boxy_VanillaRemake_6A_spicy_remix= (Center of the Earth Mix)
+Boxy_VanillaRemake_6A_spicy_remix_artist= Jukio Kallio
+Boxy_VanillaRemake_6A_spicy_b_00_2= Hollows
+Boxy_VanillaRemake_6A_spicy_c_00_2= Rock Bottom
+Boxy_VanillaRemake_6A_spicy_d_00_2= Reprieve
+
+Boxy_VanillaRemake_7A_spicy= The Summit
+Boxy_VanillaRemake_7A_spicy_b_00= 500m
+Boxy_VanillaRemake_7A_spicy_c_00= 1000m
+Boxy_VanillaRemake_7A_spicy_d_00= 1500m
+Boxy_VanillaRemake_7A_spicy_e_00b= 2000m
+Boxy_VanillaRemake_7A_spicy_f_00= 2500m
+Boxy_VanillaRemake_7A_spicy_g_00= 3000m
+
+Boxy_VanillaRemake_7A_spicy_remix= (No More Running Mix)
+Boxy_VanillaRemake_7A_spicy_remix_artist= Kuraine
+Boxy_VanillaRemake_7A_spicy_e_00= 2000m
+
+Boxy_VanillaRemake_8_epilogue_spicy= Epilogue
+
+Boxy_VanillaRemake_8A_spicy= Core
+Boxy_VanillaRemake_8A_spicy_a_00= Into the Core
+Boxy_VanillaRemake_8A_spicy_c_00= Hot and Cold
+Boxy_VanillaRemake_8A_spicy_d_00= Heart of the Mountain
+
+Boxy_VanillaRemake_8A_spicy_remix= (Say Goodbye Mix)
+Boxy_VanillaRemake_8A_spicy_remix_artist= Matthewせいじ
+Boxy_VanillaRemake_8A_spicy_a_00_2= Into the Core
+Boxy_VanillaRemake_8A_spicy_b_00_2= Burning or Freezing
+Boxy_VanillaRemake_8A_spicy_c_01_2= Heartbeat
+
+Boxy_VanillaRemake_9A_spicy= Farewell
+Boxy_VanillaRemake_9A_spicy_a_00= Singular
+Boxy_VanillaRemake_9A_spicy_c_00= Power Source
+Boxy_VanillaRemake_9A_spicy_e_00z= Remembered
+Boxy_VanillaRemake_9A_spicy_f_door= Event Horizon
+Boxy_VanillaRemake_9A_spicy_h_00b= Determination
+Boxy_VanillaRemake_9A_spicy_i_00= Stubbornness
+Boxy_VanillaRemake_9A_spicy_j_00= Reconciliation
+Boxy_VanillaRemake_9A_spicy_j_16= Farewell
+
+poem_Boxy_VanillaRemake_1A_spicy_A= Pointless machines
+poem_Boxy_VanillaRemake_1A_spicy_B= Sever the skyline
+poem_Boxy_VanillaRemake_2A_spicy_A= Resurrections
+poem_Boxy_VanillaRemake_2A_spicy_B= Black moonrise
+poem_Boxy_VanillaRemake_3A_spicy_A= Scattered and lost
+poem_Boxy_VanillaRemake_3A_spicy_B= Good karma
+poem_Boxy_VanillaRemake_4A_spicy_A= Eye of the storm
+poem_Boxy_VanillaRemake_4A_spicy_B= Golden feather
+poem_Boxy_VanillaRemake_5A_spicy_A= Quiet and falling
+poem_Boxy_VanillaRemake_5A_spicy_B= Mirror magic
+poem_Boxy_VanillaRemake_6A_spicy_A= Heavy and frail
+poem_Boxy_VanillaRemake_6A_spicy_B= Center of the earth
+poem_Boxy_VanillaRemake_7A_spicy_A= Pink sunrise
+poem_Boxy_VanillaRemake_7A_spicy_B= No more running
+poem_Boxy_VanillaRemake_8A_spicy_A= Heart of the mountain
+poem_Boxy_VanillaRemake_8A_spicy_B= Say goodbye
+poem_Boxy_VanillaRemake_9A_spicy_A= Empty Space
+
+Boxy_VanillaRemake_1A_spicy_postcard=
+    Select {#ff1144}Save and Quit{#} from the pause menu at any time to take a break. You'll resume from the same screen and you won't lose any progress!
+
+Boxy_VanillaRemake_2A_spicy_postcard=
+    {#ff1144}Strawberries{#} will impress your friends, but that's about it. Only collect them if you really want to!
+
+Boxy_VanillaRemake_3A_spicy_postcard=
+    Be proud of your {#ff1144}Death Count{#}!{n}The more you die, the more you're learning.{n}Keep going!
+
+Boxy_VanillaRemake_4A_spicy_postcard=
+    {# F94A4A}Climbing Tip!{#}{n}Low on energy in a pinch?{n}{n}Jumping away from walls{n}doesn't consume stamina!
+
+Boxy_VanillaRemake_5A_spicy_postcard=
+    {# F94A4A}Did You Know?{#}{n}Most climbing mishaps{n}occur due to exhaustion.{n}{n}Remember to take regular breaks!
+
+Boxy_VanillaRemake_6A_spicy_postcard=
+    {# F94A4A}Did You Know?{#}{n}{n}It is impossible to{n}outrun your own reflection.
