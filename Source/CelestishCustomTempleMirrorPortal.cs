@@ -6,18 +6,30 @@ using Microsoft.Xna.Framework;
 using Monocle;
 using MonoMod.Utils;
 
-[CustomEntity("Celestish/OverrideCS05MirrorPortalRespawn")]
-public class OverrideCS05MirrorPortalRespawn : Entity
+[CustomEntity("Celestish/CustomTempleMirrorPortal")]
+public class CustomTempleMirrorPortal : TempleMirrorPortal
 {
     public string level;
 
-    public static OverrideCS05MirrorPortalRespawn Load(Level level, LevelData level_data, Vector2 offset, EntityData data)
-        => new OverrideCS05MirrorPortalRespawn(data, data.Position + offset);
+    public static CustomTempleMirrorPortal Load(Level level, LevelData level_data, Vector2 offset, EntityData data)
+        => new CustomTempleMirrorPortal(data, data.Position + offset);
 
-    public OverrideCS05MirrorPortalRespawn(EntityData data, Vector2 position) : base(position)
+    public CustomTempleMirrorPortal(EntityData data, Vector2 position) : base(position)
     {
-        On.Celeste.CS04_MirrorPortal.OnEnd += modOnEnd;
         level = data.Attr("level");
+        On.Celeste.TempleMirrorPortal.Added += modAdded;
+    }
+
+    public override void Added(Scene scene)
+    {
+        base.Added(scene);
+        On.Celeste.CS04_MirrorPortal.OnEnd += modOnEnd;
+    }
+
+    private void modAdded(On.Celeste.TempleMirrorPortal.orig_Added orig, TempleMirrorPortal portal, Scene scene)
+    {
+        orig.Invoke(portal, scene);
+        On.Celeste.CS04_MirrorPortal.OnEnd -= modOnEnd;
     }
 
     private void modOnEnd(On.Celeste.CS04_MirrorPortal.orig_OnEnd orig, CS04_MirrorPortal cutscene, Level level)
