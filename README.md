@@ -1,4 +1,4 @@
-# VanillaRemake
+# CelesteVanillaRemake
 
 This repo contains two celeste mods, `Celestish` and `VanillaRemake`. `VanillaRemake` is a non-code mod containing a mostly
 accurate recreation of vanilla celeste maps. `Celestish` is a code mod containing a variety of entities and triggers to
