@@ -32,7 +32,7 @@ public class IntroBadeline : BadelineOldsite
             // BadelineOldSite.Added but without the hard coded celeste checks
             Hovering = false;
             Visible = true;
-            Hair.Visible = true;
+            Hair.Visible = false;
             Sprite.Play("pretendDead");
 
 
@@ -47,7 +47,7 @@ public class IntroBadeline : BadelineOldsite
         }
     }
 
-    [MonoModLinkTo("Celeste.Entity", "System.Void Added(Monocle.Scene)")]
+    [MonoModLinkTo("Monocle.Entity", "System.Void Added(Monocle.Scene)")]
     public void base_Added(Scene scene)
     {
         base.Added(scene);
