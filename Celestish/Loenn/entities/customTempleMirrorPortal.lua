@@ -8,6 +8,9 @@ custom_temple_mirror_portal.placements = {
     name = "Custom Temple Mirror Portal",
     data = {
         level = "",
+        to_seeker = false,
+        aside_intro = false,
+        aside_music = false,
     }
 }
 
