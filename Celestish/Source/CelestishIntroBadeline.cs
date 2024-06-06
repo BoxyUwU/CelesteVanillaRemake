@@ -1,9 +1,10 @@
-using System;
 using Celeste;
 using Celeste.Mod.Entities;
 using Microsoft.Xna.Framework;
 using Monocle;
 using MonoMod;
+
+namespace Mod.Celestish.Entities;
 
 [CustomEntity("Celestish/IntroBadeline")]
 public class IntroBadeline : BadelineOldsite

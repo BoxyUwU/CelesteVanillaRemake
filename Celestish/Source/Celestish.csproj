@@ -16,12 +16,15 @@
     </ItemDefinitionGroup>
 
     <ItemGroup>
-        <PackageReference Include="BepInEx.AssemblyPublicizer.MSBuild" Version="0.4.1" PrivateAssets="all" />
         <PackageReference Include="MonoMod.RuntimeDetour" Version="25.0.2" PrivateAssets="all" ExcludeAssets="runtime" />
         <PackageReference Include="MonoMod.Patcher" Version="25.0.0-prerelease.2" />
+        <PackageReference Include="CelesteAnalyzer" Version="*" />
     </ItemGroup>
 
     <ItemGroup>
+<!--/-:replacements:noEmit -->
+        <PackageReference Include="CelesteMod.Publicizer" Version="*" CelesteAssembly="$(CelestePrefix)\Celeste.dll" />
+<!--/+:replacements:noEmit -->
         <Reference Include="$(CelestePrefix)\Celeste.dll">
             <Private>false</Private>
         </Reference>

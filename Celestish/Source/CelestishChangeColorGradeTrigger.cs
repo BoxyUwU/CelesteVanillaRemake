@@ -2,6 +2,8 @@ using Celeste;
 using Celeste.Mod.Entities;
 using Microsoft.Xna.Framework;
 
+namespace Mod.Celestish.Entities;
+
 [CustomEntity("Celestish/ChangeColorGrade")]
 public class ChangeColorGrade : Trigger
 {

@@ -1,8 +1,9 @@
 using Celeste;
-using Celeste.Mod;
 using Celeste.Mod.Entities;
 using Microsoft.Xna.Framework;
 using Monocle;
+
+namespace Mod.Celestish.Entities;
 
 [CustomEntity("Celestish/CustomPlayerSeeker")]
 public class CustomPlayerSeeker : PlayerSeeker

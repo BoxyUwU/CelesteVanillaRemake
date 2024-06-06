@@ -1,12 +1,10 @@
-using System;
-using System.Reflection.Emit;
 using Celeste;
-using Celeste.Mod;
 using Celeste.Mod.Entities;
 using Microsoft.Xna.Framework;
 using Monocle;
 using MonoMod;
-using MonoMod.Utils;
+
+namespace Celestish.Entities;
 
 [CustomEntity("Celestish/UnfixedStarRotateSpinner")]
 public class UnfixedStarRotateSpinner : StarRotateSpinner

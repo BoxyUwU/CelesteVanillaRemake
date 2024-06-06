@@ -1,10 +1,9 @@
-using AsmResolver;
 using Celeste;
-using Celeste.Mod;
 using Celeste.Mod.Entities;
 using Microsoft.Xna.Framework;
 using Monocle;
-using MonoMod.Utils;
+
+namespace Mod.Celestish.Entities;
 
 [CustomEntity("Celestish/CustomTempleMirrorPortal")]
 public class CustomTempleMirrorPortal : TempleMirrorPortal
@@ -36,16 +35,14 @@ public class CustomTempleMirrorPortal : TempleMirrorPortal
     {
         level.OnEndOfFrame += delegate
             {
-                DynamicData data = DynamicData.For(cutscene);
-                Player player = data.Get<Player>("player");
-                var fader = data.Get("fader");
-                DynamicData fader_data = DynamicData.For(fader);
+                Player player = cutscene.player;
+                var fader = cutscene.fader;
 
                 if (fader != null && !cutscene.WasSkipped)
                 {
-                    fader_data.Set("Tag", Tags.Global);
-                    fader_data.Set("Target", 0f);
-                    fader_data.Set("Ended", true);
+                    fader.Tag = Tags.Global;
+                    fader.Target = 0f;
+                    fader.Ended = true;
                 }
                 Leader.StoreStrawberries(player.Leader);
                 level.Remove(player);
@@ -75,7 +72,7 @@ public class CustomTempleMirrorPortal : TempleMirrorPortal
                 }
                 if (fader != null)
                 {
-                    fader_data.Invoke("RemoveTag", (int)Tags.Global);
+                    fader.RemoveTag(Tags.Global);
                 }
             };
     }
